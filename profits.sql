@@ -1,4 +1,4 @@
---Shows the lowest 10 selling items given by the total sales
+
 select CONVERT (DATE, order_date_DateOrders) as Date_of_order, 
         Product_name, 
         sum(Sales) as sum_sales, Order_Profit_Per_Order
